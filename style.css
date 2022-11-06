@@ -1,0 +1,51 @@
+:root{
+    --devrocket-voltar-topo-altura: 50px;
+    --devrocket-voltar-topo-largura: 50px;
+    --devrocket-voltar-topo-espaco-direita: 20px;
+    --devrocket-voltar-topo-espaco-esquerda: 20px;
+    --devrocket-voltar-topo-borda-arredondada: 50px;
+    --devrocket-voltar-topo-tamanho-fonte: 18px;
+    --devrocket-voltar-topo-cor-fonte: #ffffff;
+    --devrocket-voltar-topo-espaco-abaixo: 230px;
+    --devrocket-voltar-topo-posicao: right; /* right| left */;
+}
+
+:root{
+    --devrocket-telegram-cor-fundo: #0088cc;
+    --devrocket-telegram-altura: 50px;
+    --devrocket-telegram-largura: 50px;
+    --devrocket-telegram-espaco-direita: 20px;
+    --devrocket-telegram-espaco-esquerda: 20px;
+    --devrocket-telegram-borda-arredondada: 50px;
+    --devrocket-telegram-tamanho-fonte: 24px;
+    --devrocket-telegram-cor-fonte: #ffffff;
+    --devrocket-telegram-espaco-abaixo: 90px;
+    --devrocket-telegram-posicao: right; /* right| left */;
+}
+
+:root{
+    --devrocket-whatsapp-altura: 50px;
+    --devrocket-whatsapp-largura: 50px;
+    --devrocket-whatsapp-tamanho-fonte: 24px;
+}
+
+:root{
+    --devrocket-instagram-cor-fundo: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    
+    /* Caso queira colocar um cor específica basta descomentar o código abaixo e comentar o de cima */
+    /* --devrocket-instagram-cor-fundo: #bc318f; */
+    
+    --devrocket-instagram-altura: 50px;
+    --devrocket-instagram-largura: 50px;
+    --devrocket-instagram-espaco-direita: 20px;
+    --devrocket-instagram-espaco-esquerda: 20px;
+    --devrocket-instagram-borda-arredondada: 50px;
+    --devrocket-instagram-tamanho-fonte: 24px;
+    --devrocket-instagram-cor-fonte: #ffffff;
+    --devrocket-instagram-espaco-abaixo: 160px;
+    --devrocket-instagram-posicao: right; /* right| left */;
+}
+
+.devrocket-timer-regua{
+    background-image: url('https://cdn.awsli.com.br/2393/2393413/arquivos/banner-regua-min.png');
+}
