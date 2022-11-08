@@ -1,0 +1,125 @@
+/*Cores*/
+:root {
+    --csCorPrincipal:#201f1f;
+    --csBotoes:#30a77e;
+    --csSuporte:#27bf64;
+    --csSuporteIcone:#ffffff;
+    --csInfoDestaque:#f1f1f1;
+    --csInfoDestaqueTxt:#565656;
+    --csCab:#ffffff;
+    --csCabTxt:#201f1f;
+    --csBusca:#f6f6f6;
+    --csBuscaTxt:#808080;
+    --csCarrinhoqtd:#30a77e;
+    --csCarrinhoqtdn:#ffffff;
+    --csMenu:#201f1f;
+    --csMenuTxt:#ffffff;
+    --csTodasCategorias:#ffffff;
+    --csOfertas:#2b2a2a;
+    --csOfertasTxt:#ffffff;
+    --csBandeiraDesconto:#ee8403;
+    --csBp1:#ee8403;
+    --csBp2:#4a93d4;
+    --csBp3:#6aa84f;
+    
+    --cFundo:#fcfcfc;
+    --cBotoes:#490dbd;
+    --cBotoesTxt:#ffe307;
+    --cTitulos:#201f1f;
+    --cAlerta:#490dbd;
+    --cdP:#1d4b9f;
+    --cSuporte:#490dbd;
+    --cSuporteIcone:#ffe307;
+    --cBarra:#ffffff;
+    --cBarraTxt:#606060;
+    --cInfoDestaque:#3b06a3;
+    --cInfoDestaqueIcone:#ffe307;
+    --cInfoDestaqueTxt:#ffffff;
+    --cCab:#490dbd;
+    --cCabIcones:#ffe307;
+    --cCabTxt:#ffffff;
+    --cBusca:#ffffff;
+    --cBuscaTxt:#490dbd;
+    --cCarrinhoqtd:#ffe307;
+    --cCarrinhoqtdn:#490dbd;
+    --cMenu:#ffffff;
+    --cMenuTxt:#490dbd;
+    --cTodasCategoriasIcone:#490dbd;
+    --cTodasCategoriasTxt:#490dbd;
+    --cOfertas:#ffe307;
+    --cOfertasTxt:#490dbd;
+    --cOfertasT:#490dbd;
+    --cOfertasL:#490dbd;
+    --cOfertasLTxt:#ffffff;
+    --cBannerF:#313131;
+    --cBannerN:#ffffff;
+    --cBannerP:#d6d6d6;
+    --cBannerB:#490dbd;
+    --cBannerBTxt:#ffffff;
+    --cTarja:#ffffff;
+    --cTarjaIcone:#490dbd;
+    --cTarjaTxt:#490dbd;
+    --cTarjaSub:#201f1f;
+    --cPreco:#490dbd;
+    --cPix:#f5f5f5;
+    --cPixIcone:#490dbd;
+    --cPixTxt:#201f1f;
+    --cBotaoWP:#ffffff;
+    --cBotaoWPTxt:#490dbd;
+    --cBotaoWPBorda:#490dbd;
+    --cBandeiraDesconto:#ffe307;
+    --cBandeiraDescontoTxt:#490dbd;
+    --cBandeiraFrete:#199a64;
+    --cBandeiraFreteTxt:#ffffff;
+    --cBp1:#490dbd;
+    --cBp1Txt:#ffffff;
+    --cBp2:#490dbd;
+    --cBp2Txt:#ffffff;
+    --cBp3:#653239;
+    --cBp3Txt:#ffffff;
+    --cVMarcas:#f7f7f7;
+    --cVMarcasTxt:#201f1f;
+    --cVVideo:#f7f7f7;
+    --cVVideoTxt:#201f1f;
+    --cVBlog:#f7f7f7;
+    --cVBlogTxt:#201f1f;
+    --cVBlogD:#490dbd;
+    --cVDepoimentos:#f7f7f7;
+    --cVDepoimentosTxt:#201f1f;
+    --cNewsletter:#ffffff;
+    --cNewsletterTxt:#201f1f;
+    --cNewsletterCaixa:#f6f6f6;
+    --cNewsletterCaixaTxt:#323232;
+    --cRodape:#ffffff;
+    --cRodapeTxt:#201f1f;
+    --cRodapeRedes:#f3f3f3;
+    --cRodapeRedesTxt:#424242;
+    --cRodapeInferior:#ffffff;
+    --cRodapeInferiorTxt:#181818;
+    --cLancamento:#490dbd;
+    --cDesc:#f7f7f7;
+    --cDescTxt:#201f1f;
+    }
+    
+    .vitrine-produtos {order:8}
+    .vitrine-destaque {order:6}
+    .vitrine-mas-vendido {order:2}
+    .vitrine-lancamento {order:5}
+    .vitrine-ofertas {order:undefined}
+    .vitrine-marcas {order:3}
+    .vitrine-video {order:4}
+    .vitrine-depoimentos {order:9}
+    .vitrine-blog {order:7}
+    
+    .produto-descricao {order:1}
+    .produto-comentarios {order:3}
+    .produto-aproveite {order:4}
+    .produto-comprejunto {order:2}
+    
+    .pagina-categoria .banner.vitrine {order:2}
+    .pagina-categoria #listagemProdutos {order:4}
+    .categoria-descricao {order:1}
+    .categoria-newsletter {order:3}
+    
+    /* Fonte da loja*/
+    body, input, select, .titulo, button, textarea, .pagina-pagina .caixa-sombreada p {font-family:Montserrat};

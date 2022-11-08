@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@300;400;600;700;800&display=swap');
+
+#sobre-tema {font-family: Maven Pro}
+#sobre-tema .inside {padding:0}
+#sobre-tema .close {right: 8px;box-shadow: none;border: none;background: #eaeaea !important;height: 34px;top: 8px;width: 36px;border-radius: 3px;}
+.sobre-content {height: 500px;overflow: auto;padding: 10px;padding-bottom: 30px;background: #f5f5f5;border-top: 2px solid #ebebeb;}
+.sobre-content img {margin-bottom: -20px;}
+.sobre-content .tab-content {overflow:hidden}
+.sobre-topo {padding: 15px 30px;padding-bottom: 0;margin-bottom: -2px;}
+.sobre-topo #tabs {display:flex;align-items: center;justify-content: center;}
+.sobre-topo #tabs li a{cursor:pointer;display:flex;align-items:center;border-bottom: 4px solid #1f2950;padding: 0 18px 13px 18px;position: relative;}
+.sobre-topo #tabs li a:hover {opacity:0.8}
+.sobre-topo #tabs li a svg {margin-right: 5px;width: 20px;height: 20px;}
+.sobre-topo #tabs li a svg {fill:#1f2950}
+.sobre-topo #tabs li a span {color:#1f2950;font-weight:700;font-size: 16px;}
+.sobre-topo #tabs li a.inactive {border-bottom: none;}
+.sobre-topo #tabs li a.inactive svg{fill: #878787;}
+.sobre-topo #tabs li a.inactive span{color: #878787;font-weight: 400;}
+.sobre-rodape {display:flex;flex-direction:column;border-top: 1px solid #dadada;}
+.sobre-rodape .sobre-dados {display:flex;align-items:center;justify-content:space-between;background: #f6f6f6;padding: 5px 30px;}
+.sobre-rodape .sobre-nome {font-size: 15px;font-weight:600;color: #676767;}
+.sobre-rodape .sobre-contatos {display:flex;align-items:center}
+.sobre-rodape .sobre-contatos a {display:flex;align-items:center;font-size:14px;line-height: 14px;color:#676767;}
+.sobre-rodape .sobre-contatos a:not(:last-child){margin-right:10px;padding-right:10px;border-right:1px solid #d8d8d8}
+.sobre-rodape .sobre-contatos a:nth-child(1) svg{fill: #24a95c}
+.sobre-rodape .sobre-contatos a svg {width: 16px;height: 16px;margin-right: 4px;}
+.sobre-rodape .sobre-contatos a img {width:52px}
+.sobre-rodape .sobre-oferta {background:#1f2950;display: flex;align-items: center;justify-content: space-between;height: 90px;border-radius: 0 0 4px 4px;}
+.sobre-rodape .sobre-ofertas1 {display:flex;flex-direction:column;padding: 0px 30px;}
+.sobre-rodape .sobre-ofertas1 strong {color:#fff;font-size: 25px;line-height: 25px;margin-bottom: 4px;}
+.sobre-rodape .sobre-ofertas1 > span {color:#f2f2f2;font-size:18px}
+.sobre-rodape .sobre-ofertas1 span b {font-weight:600;color:#ffba42}
+.sobre-rodape .sobre-ofertas2 {display:flex;align-items:center;height: 100%;}
+.sobre-rodape .sobre-precos {display:flex;flex-direction:column;margin-right: 24px;}
+.sobre-rodape .sobre-precos span{color: #e7fffb94;font-size:16px;text-decoration: line-through;}
+.sobre-rodape .sobre-precos strong {font-weight:700;color:#ffba42;font-size:31px;line-height: 30px;}
+.sobre-rodape .sobre-cupom {border-left: 1px solid #2d396fb5;height: 100%;padding: 0 24px;display: flex;flex-direction: column;justify-content: center;}
+.sobre-rodape .sobre-cupom span {color:#37cdb4;font-size: 13px;line-height: 13px;text-transform: uppercase;text-align: center;margin-bottom: 5px;}
+.sobre-rodape .sobre-cupom strong {font-weight:700;color:#37cdb4;font-size:20px;padding: 5px 12px;border-radius: 5px;border: 2px dashed;}
+.sobre-rodape .sobre-comprar {border-left: 1px solid #2d396fad;height: 100%;display: flex;flex-direction: column;justify-content: center;}
+.sobre-rodape .sobre-comprar a {color: #ffffff;font-size: 25px;background: #1b2340;border-radius: 0 0 4px 0;display: flex;width: 100%;height: 100%;align-items: center;justify-content: center;padding: 0 24px;letter-spacing: 1px;}
+
+.sobre-lojas {padding: 10px 30px}
+.sobre-lojas span {font-size:16px;font-weight:700;margin-bottom:20px;display:flex;white-space: break-spaces;}
+.sobre-lojas li {margin-bottom:3px;font-size: 15px;}
+
+.sobre-faq {padding:0 30px}
+.sobre-faq {margin-top: 15px;}
+.sobre-faq .sobre-pergunta {background-color: #eaeaea;color: #1f2950;cursor: pointer;padding: 7px 20px;width: 100%;border: none;text-align: left;outline: none;font-weight: 600;font-size: 15px;transition: 0.4s;}
+.sobre-faq .sobre-pergunta:after {content: '\002B';color: #777;font-weight: bold;float: right;margin-left: 5px;}
+.sobre-faq .active:after {content: "\2212";}
+.sobre-faq .sobre-resposta {background-color: white;max-height: 0;overflow: hidden;transition: max-height 0.2s ease-out;}
+.sobre-faq .sobre-resposta p {margin-bottom:0;padding: 10px 20px;font-size: 15px;}
+
+.sobre-aviso {position:fixed;bottom: 20px;right:20px;z-index: 20;}
+.sobre-aviso a {display:flex;align-items:center;padding: 15px 20px;padding-left: 8px;background: #ededed;border: 1px solid #b9b9b9;border-radius: 5px;z-index: 5;opacity: 1 !important;}
+.sobre-aviso a:hover {background:#e5e5e5}
+.sobre-aviso a svg {margin-right: 2px;fill: #1f2950;width: 34px;height: 34px;}
+.sobre-aviso a strong {font-size: 18px;line-height: 18px;color: #1f2950;font-weight:700;margin-bottom: 3px;}
+.sobre-aviso a span {font-size: 15px;color: #303030;}
+.sobre-aviso1 {display:flex;flex-direction:column}
+.sobre-aviso .sobre-fechar {display: inline-flex;background: #ededed;border: 1px solid #b9b9b9;right: -3px;position: absolute;top: -3px;border-radius: 3px;cursor: pointer;z-index: 6;}
+.sobre-aviso .sobre-fechar:hover {background:#d4d4d4}
+.sobre-aviso .sobre-fechar svg {width:14px;height:14px}
+
+
+@media only screen and (max-width: 1024px) {
+.sobre-aviso {display:none !important}
+#sobre-tema {display:none !important}
+#sobre-tema + .iziModal-overlay{display:none !important}
+}
